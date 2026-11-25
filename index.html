@@ -1,0 +1,1660 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" href="https://kim-benz.github.io/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="48x48" href="https://kim-benz.github.io/favicon-48.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="https://kim-benz.github.io/favicon-192.png">
+  <link rel="apple-touch-icon" href="https://kim-benz.github.io/apple-touch-icon.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The all-new Electric GLA 미리보기 (포항전시장 김석현 과장)</title>
+  <meta name="description" content="디 올-뉴 일렉트릭 GLA 국내 출시 예정 · 최대 657km(WLTP) · 800V 급속 충전 · 107L 프렁크. 글로벌 공개 하이라이트 미리보기.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="THE ALL-NEW ELECTRIC GLA 미리보기">
+  <meta property="og:description" content="국내 출시 예정 · 글로벌 공개 하이라이트 (포항전시장 김석현 과장)">
+  <meta property="og:image" content="images/og-thumb.jpg">
+  <style>
+    /* =========================================================
+       1. 화면 기본 스타일 (다크 모드 디자인)
+       ========================================================= */
+    :root {
+      --mb-black: #08080a;
+      --mb-dark-gray: #121316;
+      --mb-card-bg: #1a1c20;
+      --mb-silver: #a0a5aa;
+      --mb-white: #ffffff;
+      --mb-accent: #00adef;
+      --mb-border: #262930;
+      --mb-highlight: #f59e0b;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    }
+
+    body {
+      background-color: var(--mb-black);
+      color: var(--mb-white);
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: rgba(8, 8, 10, 0.95);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      border-bottom: 1px solid var(--mb-border);
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header h1 {
+      font-size: 1.1rem;
+      font-weight: 700;
+      letter-spacing: 1.5px;
+      color: var(--mb-white);
+    }
+
+    .advisor-info {
+      font-size: 0.9rem;
+      color: var(--mb-silver);
+    }
+
+    .advisor-info span {
+      color: var(--mb-accent);
+      font-weight: 600;
+      margin-left: 0.5rem;
+    }
+
+    .hero {
+      position: relative;
+      width: 100%;
+      height: 50vh;
+      min-height: 360px;
+      overflow: hidden;
+      display: flex;
+      align-items: flex-start;
+      justify-content: center;
+      padding-top: 3.5rem;
+      border-bottom: 1px solid var(--mb-border);
+      background-color: #050505;
+    }
+
+    .hero-img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center 60%;
+      cursor: pointer;
+    }
+
+    .hero-gradient-overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(
+        to bottom,
+        rgba(8, 8, 10, 0.75) 0%,
+        rgba(8, 8, 10, 0.2) 40%,
+        rgba(8, 8, 10, 0.4) 70%,
+        rgba(8, 8, 10, 0.95) 100%
+      );
+      z-index: 1;
+      pointer-events: none;
+    }
+
+    .hero-overlay {
+      position: absolute;
+      text-align: center;
+      z-index: 2;
+      padding: 0 1rem;
+      pointer-events: none;
+    }
+
+    .hero-overlay h2 {
+      font-size: 2.3rem;
+      font-weight: 800;
+      letter-spacing: 2px;
+      margin-bottom: 0.3rem;
+      text-transform: uppercase;
+      text-shadow: 0 2px 8px rgba(0, 0, 0, 0.8);
+    }
+
+    .hero-overlay p {
+      font-size: 1.05rem;
+      color: var(--mb-silver);
+      text-shadow: 0 1px 4px rgba(0, 0, 0, 0.8);
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 3rem 1.5rem;
+    }
+
+    .section-title-wrap {
+      margin-bottom: 1.8rem;
+    }
+
+    .section-tag {
+      font-size: 0.75rem;
+      color: var(--mb-accent);
+      font-weight: 700;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      display: block;
+      margin-bottom: 0.3rem;
+    }
+
+    .section-title {
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: var(--mb-white);
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+    }
+
+    .section-title::before {
+      content: '';
+      display: inline-block;
+      width: 4px;
+      height: 1.2rem;
+      background-color: var(--mb-accent);
+    }
+
+    .img-placeholder {
+      width: 100%;
+      background-color: #22252b;
+      border: 1px dashed #3a3f4a;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--mb-silver);
+      font-size: 0.8rem;
+      position: relative;
+      overflow: hidden;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+
+    .img-placeholder img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center;
+      position: absolute;
+      top: 0;
+      left: 0;
+      transition: transform 0.4s ease;
+    }
+
+    .img-placeholder:hover::after {
+      content: '🔍 클릭하여 확대';
+      position: absolute;
+      bottom: 8px;
+      right: 8px;
+      background: rgba(0, 0, 0, 0.75);
+      color: var(--mb-white);
+      padding: 4px 8px;
+      font-size: 0.7rem;
+      border-radius: 4px;
+      border: 1px solid var(--mb-accent);
+      z-index: 5;
+    }
+
+    /* =========================================================
+       2. 레이아웃 & 디테일
+       ========================================================= */
+
+    /* [1. 상단] 3분할 카운터 카드 */
+    .top-detail-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1rem;
+      margin-bottom: 3.5rem;
+    }
+
+    .top-detail-card {
+      background-color: var(--mb-card-bg);
+      border-radius: 8px;
+      overflow: hidden;
+      border: 1px solid var(--mb-border);
+      transition: transform 0.3s ease, border-color 0.3s ease;
+    }
+
+    .top-detail-card:hover {
+      border-color: var(--mb-accent);
+      transform: translateY(-2px);
+    }
+
+    .top-detail-card:hover .img-placeholder img {
+      transform: scale(1.05);
+    }
+
+    .top-detail-card .img-wrapper {
+      height: 140px;
+    }
+
+    .top-detail-info {
+      padding: 0.8rem 1rem;
+    }
+
+    .top-detail-info h4 {
+      font-size: 0.88rem;
+      color: var(--mb-white);
+    }
+
+    /* [2. 외관] */
+    .feature-split-row {
+      display: grid;
+      grid-template-columns: 1.2fr 0.8fr;
+      gap: 2rem;
+      align-items: center;
+      margin-bottom: 4rem;
+      background-color: var(--mb-dark-gray);
+      padding: 2rem;
+      border-radius: 12px;
+      border: 1px solid var(--mb-border);
+    }
+
+    .feature-split-img {
+      height: 320px;
+    }
+
+    .feature-split-text h3 {
+      font-size: 1.4rem;
+      margin-bottom: 0.8rem;
+      color: var(--mb-white);
+    }
+
+    .feature-split-text p {
+      font-size: 0.9rem;
+      color: var(--mb-silver);
+      line-height: 1.6;
+      margin-bottom: 1rem;
+    }
+
+    .feature-tags {
+      display: flex;
+      gap: 0.5rem;
+      flex-wrap: wrap;
+    }
+
+    .feature-tag-item {
+      font-size: 0.75rem;
+      padding: 0.2rem 0.6rem;
+      background-color: rgba(0, 173, 239, 0.1);
+      color: var(--mb-accent);
+      border-radius: 4px;
+      border: 1px solid rgba(0, 173, 239, 0.2);
+    }
+
+    /* [3. 라인업 카드 4종] */
+    .lineup-section {
+      margin-bottom: 3.5rem;
+    }
+
+    .lineup-container {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 1rem;
+      width: 100%;
+    }
+
+    .lineup-card {
+      background-color: var(--mb-card-bg);
+      border: 1px solid var(--mb-border);
+      border-radius: 10px;
+      padding: 1.2rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      transition: transform 0.3s ease, border-color 0.3s ease;
+    }
+
+    .lineup-card:hover {
+      border-color: var(--mb-accent);
+      transform: translateY(-3px);
+    }
+
+    .lineup-card.active-target {
+      border-color: var(--mb-accent);
+    }
+
+    .lineup-badge {
+      display: inline-block;
+      align-self: flex-start;
+      background-color: rgba(255, 255, 255, 0.08);
+      color: var(--mb-silver);
+      padding: 0.2rem 0.5rem;
+      border-radius: 4px;
+      font-size: 0.7rem;
+      font-weight: 600;
+      margin-bottom: 0.6rem;
+    }
+
+    .lineup-badge.target {
+      background-color: rgba(0, 173, 239, 0.2);
+      color: var(--mb-accent);
+    }
+
+    .lineup-card h3 {
+      font-size: 0.98rem;
+      margin-bottom: 0.3rem;
+      line-height: 1.35;
+    }
+
+    .lineup-price {
+      font-size: 0.88rem;
+      color: var(--mb-highlight);
+      font-weight: 700;
+      margin-bottom: 1rem;
+    }
+
+    .lineup-specs {
+      list-style: none;
+      border-top: 1px solid var(--mb-border);
+      padding-top: 0.8rem;
+    }
+
+    .lineup-specs li {
+      display: flex;
+      justify-content: space-between;
+      font-size: 0.78rem;
+      padding: 0.25rem 0;
+      color: var(--mb-silver);
+    }
+
+    .lineup-specs li span {
+      color: var(--mb-white);
+      font-weight: 500;
+    }
+
+    /* [4. 라인업 휠 4종 - 1:1 비율] */
+    .wheel-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 1rem;
+      margin-bottom: 4rem;
+    }
+
+    .wheel-card {
+      background-color: var(--mb-card-bg);
+      border: 1px solid var(--mb-border);
+      border-radius: 8px;
+      padding: 0.8rem;
+      text-align: center;
+      transition: transform 0.3s ease, border-color 0.3s ease;
+    }
+
+    .wheel-card:hover {
+      border-color: var(--mb-accent);
+      transform: translateY(-2px);
+    }
+
+    .wheel-card:hover .wheel-img img {
+      transform: scale(1.06);
+    }
+
+    .wheel-img {
+      width: 100%;
+      aspect-ratio: 1 / 1;
+      height: auto;
+      margin-bottom: 0.6rem;
+    }
+
+    .wheel-card h5 {
+      font-size: 0.82rem;
+      color: var(--mb-white);
+    }
+
+    .wheel-card span {
+      font-size: 0.73rem;
+      color: var(--mb-accent);
+    }
+
+    /* [5. 디지털 콕핏] */
+    .cockpit-section {
+      margin-bottom: 4rem;
+    }
+
+    .hero-banner-box {
+      width: 100%;
+      height: 380px;
+      margin-bottom: 1.2rem;
+      border-radius: 12px;
+    }
+
+    .cockpit-sub-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1rem;
+    }
+
+    .cockpit-sub-card {
+      background-color: var(--mb-card-bg);
+      border-radius: 8px;
+      padding: 1rem;
+      border: 1px solid var(--mb-border);
+      transition: transform 0.3s ease, border-color 0.3s ease;
+    }
+
+    .cockpit-sub-card:hover {
+      border-color: var(--mb-accent);
+      transform: translateY(-2px);
+    }
+
+    .cockpit-sub-card:hover .img-wrapper img {
+      transform: scale(1.05);
+    }
+
+    .cockpit-sub-card .img-wrapper {
+      height: 120px;
+      margin-bottom: 0.8rem;
+    }
+
+    .cockpit-sub-card h4 {
+      font-size: 0.92rem;
+      margin-bottom: 0.3rem;
+      color: var(--mb-white);
+    }
+
+    .cockpit-sub-card p {
+      font-size: 0.8rem;
+      color: var(--mb-silver);
+      line-height: 1.4;
+    }
+
+    /* [6. AMG Line vs AMG Line+ 와이드 비주얼] */
+    .compare-container {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1.2rem;
+      margin-bottom: 4rem;
+      background-color: var(--mb-card-bg);
+      border: 1px solid var(--mb-border);
+      border-radius: 10px;
+      padding: 1.5rem;
+    }
+
+    .compare-box h4 {
+      font-size: 1.05rem;
+      color: var(--mb-accent);
+      margin-bottom: 0.8rem;
+      border-bottom: 1px solid var(--mb-border);
+      padding-bottom: 0.4rem;
+    }
+
+    .compare-box .compare-img {
+      width: 100%;
+      aspect-ratio: 16 / 9;
+      max-height: 240px;
+      height: auto;
+      margin-bottom: 0.8rem;
+      border-radius: 6px;
+      background-color: #0d0e11;
+    }
+
+    .compare-box .compare-img img {
+      object-fit: contain;
+      background-color: #0d0e11;
+    }
+
+    .compare-box ul {
+      list-style: none;
+    }
+
+    .compare-box li {
+      font-size: 0.83rem;
+      color: var(--mb-silver);
+      margin-bottom: 0.4rem;
+      padding-left: 1.2rem;
+      position: relative;
+    }
+
+    .compare-box li::before {
+      content: '✓';
+      position: absolute;
+      left: 0;
+      color: var(--mb-accent);
+    }
+
+    /* [7. 실내 공간] */
+    .space-section {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 2rem;
+      margin-bottom: 4rem;
+      align-items: center;
+    }
+
+    .space-gallery {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 1rem;
+    }
+
+    .space-gallery-img {
+      height: 180px;
+    }
+
+    .space-info h3 {
+      font-size: 1.3rem;
+      margin-bottom: 0.8rem;
+      color: var(--mb-white);
+    }
+
+    .space-info p {
+      font-size: 0.88rem;
+      color: var(--mb-silver);
+      margin-bottom: 1.2rem;
+      line-height: 1.6;
+    }
+
+    /* [8. 색상 커스터마이저 - 2:1 비율] */
+    .color-section {
+      background-color: var(--mb-card-bg);
+      border: 1px solid var(--mb-border);
+      border-radius: 10px;
+      padding: 1.5rem;
+      margin-bottom: 3.5rem;
+    }
+
+    .color-controls {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1.5rem;
+      background-color: var(--mb-dark-gray);
+      padding: 1.2rem;
+      border-radius: 8px;
+      border: 1px solid var(--mb-border);
+      margin-bottom: 1.2rem;
+    }
+
+    .color-control-group h3 {
+      font-size: 0.95rem;
+      color: var(--mb-white);
+      margin-bottom: 0.8rem;
+    }
+
+    .color-palette {
+      display: flex;
+      gap: 0.5rem;
+      flex-wrap: wrap;
+    }
+
+    .color-chip {
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      border: 2px solid #444;
+      cursor: pointer;
+      transition: transform 0.2s, border-color 0.2s, box-shadow 0.2s;
+    }
+
+    .color-chip:hover {
+      transform: scale(1.1);
+    }
+
+    .color-chip.active {
+      border-color: var(--mb-accent);
+      box-shadow: 0 0 10px rgba(0, 173, 239, 0.6);
+    }
+
+    .selected-color-title {
+      font-size: 0.85rem;
+      color: var(--mb-accent);
+      margin-top: 0.6rem;
+      font-weight: 600;
+    }
+
+    .color-preview-container {
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+      gap: 1rem;
+      margin-bottom: 1rem;
+    }
+
+    .preview-wrapper {
+      position: relative;
+    }
+
+    .preview-label {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      background-color: rgba(8, 8, 10, 0.8);
+      color: var(--mb-accent);
+      font-size: 0.75rem;
+      padding: 3px 8px;
+      border-radius: 4px;
+      border: 1px solid rgba(0, 173, 239, 0.3);
+      z-index: 2;
+    }
+
+    .color-preview-box {
+      height: 280px;
+      border: 1px solid var(--mb-border);
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.8);
+    }
+
+    .color-preview-box img {
+      object-fit: contain;
+      background-color: #0b0c0e;
+    }
+
+    .color-summary-bar {
+      background-color: var(--mb-dark-gray);
+      padding: 0.8rem 1rem;
+      border-radius: 6px;
+      font-size: 0.85rem;
+      color: var(--mb-white);
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      border: 1px solid var(--mb-border);
+    }
+
+    /* [9. 충전 인프라] */
+    .benefit-section {
+      margin-bottom: 3.5rem;
+    }
+
+    .benefit-card {
+      background: linear-gradient(135deg, #141c29 0%, #121316 100%);
+      border: 1px solid var(--mb-accent);
+      border-radius: 10px;
+      padding: 1.5rem;
+      display: flex;
+      gap: 1.5rem;
+      align-items: center;
+    }
+
+    .benefit-img {
+      width: 220px;
+      height: 130px;
+      flex-shrink: 0;
+    }
+
+    .benefit-info h3 {
+      font-size: 1.15rem;
+      color: var(--mb-accent);
+      margin-bottom: 0.5rem;
+    }
+
+    .benefit-info p {
+      font-size: 0.85rem;
+      color: var(--mb-silver);
+      line-height: 1.5;
+    }
+
+    /* [10. 전 모델 공통 사양] */
+    .grid-common {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1.2rem;
+      margin-bottom: 3.5rem;
+    }
+
+    .common-card {
+      background-color: var(--mb-card-bg);
+      border: 1px solid var(--mb-border);
+      border-radius: 10px;
+      padding: 1.2rem;
+    }
+
+    .common-card h3 {
+      font-size: 0.98rem;
+      color: var(--mb-white);
+      margin-bottom: 0.6rem;
+    }
+
+    .common-card ul {
+      list-style: none;
+    }
+
+    .common-card li {
+      font-size: 0.82rem;
+      color: var(--mb-silver);
+      padding: 0.2rem 0;
+      position: relative;
+      padding-left: 0.9rem;
+    }
+
+    .common-card li::before {
+      content: '•';
+      color: var(--mb-accent);
+      position: absolute;
+      left: 0;
+    }
+
+    /* [11. 표 스타일] */
+    .table-wrapper {
+      width: 100%;
+      overflow-x: auto;
+      background-color: var(--mb-card-bg);
+      border-radius: 10px;
+      border: 1px solid var(--mb-border);
+      margin-bottom: 3.5rem;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.82rem;
+      text-align: left;
+    }
+
+    th, td {
+      padding: 0.75rem 0.9rem;
+      border-bottom: 1px solid var(--mb-border);
+    }
+
+    th {
+      background-color: var(--mb-dark-gray);
+      color: var(--mb-white);
+      font-weight: 600;
+    }
+
+    td {
+      color: var(--mb-silver);
+    }
+
+    table tr:hover td {
+      background-color: rgba(255, 255, 255, 0.02);
+      color: var(--mb-white);
+    }
+
+    td.check {
+      color: var(--mb-accent);
+      font-weight: 700;
+      text-align: center;
+    }
+
+    td.none {
+      color: #555;
+      text-align: center;
+    }
+
+    .category-row {
+      background-color: #16181c;
+    }
+
+    .category-row td {
+      color: var(--mb-accent);
+      font-weight: 700;
+      font-size: 0.85rem;
+      padding-top: 0.9rem;
+      padding-bottom: 0.5rem;
+    }
+
+    /* 카탈로그 다운로드 섹션 스타일 */
+    .catalog-download-section {
+      background: linear-gradient(135deg, #141c29 0%, #121316 100%);
+      border: 1px solid var(--mb-border);
+      border-radius: 12px;
+      padding: 2.5rem 2rem;
+      margin-bottom: 3.5rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 2rem;
+    }
+
+    .catalog-info h3 {
+      font-size: 1.25rem;
+      color: var(--mb-white);
+      margin-bottom: 0.5rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .catalog-info p {
+      font-size: 0.88rem;
+      color: var(--mb-silver);
+      line-height: 1.5;
+    }
+
+    .catalog-btn-group {
+      display: flex;
+      gap: 0.8rem;
+      flex-shrink: 0;
+    }
+
+    .c-btn-catalog {
+      background-color: var(--mb-accent);
+      color: var(--mb-black);
+      font-weight: 700;
+      border: none;
+    }
+    .c-btn-catalog:hover {
+      background-color: #0098d4;
+      transform: translateY(-1px);
+    }
+
+    .c-btn-outline {
+      background-color: transparent;
+      color: var(--mb-white);
+      border: 1px solid var(--mb-border);
+    }
+    .c-btn-outline:hover {
+      border-color: var(--mb-accent);
+      background-color: rgba(0, 173, 239, 0.05);
+      transform: translateY(-1px);
+    }
+
+    /* [12. 하단 상담 / 사전계약 CTA 배너] */
+    .consult-card {
+      background: linear-gradient(135deg, #141821 0%, #0a0b0d 100%);
+      border: 1.5px solid var(--mb-accent);
+      border-radius: 12px;
+      padding: 1.8rem 2rem;
+      margin-top: 2rem;
+      box-shadow: 0 8px 30px rgba(0, 173, 239, 0.15);
+    }
+
+    .consult-header {
+      margin-bottom: 1.2rem;
+    }
+
+    .consult-title-row {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      margin-bottom: 0.4rem;
+    }
+
+    .consult-title-row h3 {
+      font-size: 1.25rem;
+      font-weight: 800;
+      color: var(--mb-white);
+      letter-spacing: -0.3px;
+    }
+
+    .consult-subtext {
+      font-size: 0.88rem;
+      color: var(--mb-silver);
+      line-height: 1.5;
+    }
+
+    .consult-divider {
+      border: none;
+      border-top: 1px dashed var(--mb-border);
+      margin: 1.2rem 0;
+    }
+
+    .consult-bottom-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 1.2rem;
+    }
+
+    .advisor-details {
+      display: flex;
+      align-items: center;
+      gap: 0.8rem;
+      font-size: 0.95rem;
+    }
+
+    .advisor-name {
+      color: var(--mb-silver);
+    }
+
+    .advisor-name strong {
+      color: var(--mb-white);
+      font-size: 1.05rem;
+    }
+
+    .advisor-phone {
+      color: var(--mb-accent);
+      font-weight: 800;
+      font-size: 1.1rem;
+      letter-spacing: 0.5px;
+      display: flex;
+      align-items: center;
+      gap: 0.3rem;
+      text-decoration: none;
+    }
+
+    .consult-btn-group {
+      display: flex;
+      gap: 0.6rem;
+      flex-wrap: wrap;
+    }
+
+    .c-btn {
+      padding: 0.65rem 1.1rem;
+      border-radius: 6px;
+      font-size: 0.85rem;
+      font-weight: 700;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.4rem;
+      transition: all 0.2s ease;
+      cursor: pointer;
+    }
+
+    .c-btn-kakao {
+      background-color: #fee500;
+      color: #191919;
+    }
+    .c-btn-kakao:hover {
+      background-color: #fada0a;
+      transform: translateY(-1px);
+    }
+
+    .c-btn-call {
+      background-color: #2563eb;
+      color: #ffffff;
+    }
+    .c-btn-call:hover {
+      background-color: #1d4ed8;
+      transform: translateY(-1px);
+    }
+
+    .c-btn-sms {
+      background-color: #ffffff;
+      color: #1a1a1a;
+      border: 1px solid #d1d5db;
+    }
+    .c-btn-sms:hover {
+      background-color: #f3f4f6;
+      transform: translateY(-1px);
+    }
+
+    /* [13. 하단 푸터 / 주의사항 영역] */
+    footer {
+      border-top: 1px solid var(--mb-border);
+      background-color: #050507;
+      padding: 2.5rem 1.5rem;
+      margin-top: 4rem;
+    }
+
+    .footer-content {
+      max-width: 1100px;
+      margin: 0 auto;
+      font-size: 0.78rem;
+      color: #71767e;
+      line-height: 1.7;
+    }
+
+    .footer-disclaimer {
+      margin-bottom: 1.2rem;
+    }
+
+    .footer-disclaimer p {
+      margin-bottom: 0.2rem;
+    }
+
+    .footer-copyright {
+      color: #52565e;
+      font-size: 0.75rem;
+      border-top: 1px solid rgba(255, 255, 255, 0.05);
+      padding-top: 1rem;
+    }
+
+    /* =========================================================
+       3. 이미지 클릭 확대 모달 (Lightbox Modal)
+       ========================================================= */
+    .modal-overlay {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.9);
+      z-index: 1000;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+      backdrop-filter: blur(5px);
+    }
+
+    .modal-overlay.active {
+      display: flex;
+    }
+
+    .modal-content {
+      max-width: 90%;
+      max-height: 90%;
+      border-radius: 8px;
+      box-shadow: 0 0 30px rgba(0, 173, 239, 0.3);
+      object-fit: contain;
+    }
+
+    .modal-close {
+      position: absolute;
+      top: 20px;
+      right: 30px;
+      font-size: 2rem;
+      color: #fff;
+      cursor: pointer;
+      font-weight: bold;
+      transition: color 0.2s;
+    }
+
+    .modal-close:hover {
+      color: var(--mb-accent);
+    }
+
+    /* 반응형 스타일 조정 */
+    @media (max-width: 992px) {
+      .lineup-container, .wheel-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+      .feature-split-row, .space-section, .color-controls, .color-preview-container {
+        grid-template-columns: 1fr;
+      }
+      .feature-split-img {
+        height: 250px;
+      }
+      .color-preview-box {
+        height: 220px;
+      }
+      .catalog-download-section {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      .catalog-btn-group {
+        width: 100%;
+        flex-direction: column;
+      }
+    }
+
+    /* 브랜드 문구 인용 섹션 */
+    .brand-quote {
+      text-align: center;
+      padding: 3rem 1.5rem 2.8rem;
+    }
+
+    .brand-quote p {
+      font-size: 1.3rem;
+      font-weight: 700;
+      font-style: italic;
+      color: var(--mb-highlight);
+      line-height: 1.75;
+      max-width: 720px;
+      margin: 0 auto 1.2rem;
+    }
+
+    .brand-quote .quote-byline {
+      font-size: 0.78rem;
+      letter-spacing: 1.5px;
+      color: var(--mb-silver);
+      text-transform: uppercase;
+    }
+
+    .brand-quote .quote-byline span {
+      color: var(--mb-accent);
+      font-weight: 700;
+    }
+
+    /* 어드바이저 구매 전략 소개 섹션 */
+    .advisor-pitch {
+      display: grid;
+      grid-template-columns: 0.85fr 1.4fr;
+      gap: 2.5rem;
+      align-items: center;
+      background-color: var(--mb-dark-gray);
+      border: 1px solid var(--mb-border);
+      border-radius: 12px;
+      padding: 2.5rem;
+      margin-bottom: 4rem;
+    }
+
+    .advisor-pitch-img {
+      width: 100%;
+      height: 320px;
+      border-radius: 10px;
+      overflow: hidden;
+    }
+
+    .advisor-pitch-img img {
+      width: 100%;
+      height: 100%;
+      display: block;
+      object-fit: contain;
+      object-position: center;
+    }
+
+    .advisor-pitch .section-tag {
+      color: var(--mb-highlight);
+    }
+
+    .advisor-pitch-body h3 {
+      font-size: 1.5rem;
+      line-height: 1.45;
+      margin-bottom: 0.9rem;
+      color: var(--mb-white);
+    }
+
+    .advisor-pitch-body > p {
+      font-size: 0.9rem;
+      color: var(--mb-silver);
+      line-height: 1.7;
+      margin-bottom: 1.6rem;
+    }
+
+    .advisor-stats {
+      display: flex;
+      gap: 2.2rem;
+      margin-bottom: 1.8rem;
+      padding-bottom: 1.8rem;
+      border-bottom: 1px solid var(--mb-border);
+    }
+
+    .advisor-stat-num {
+      font-size: 1.3rem;
+      font-weight: 800;
+      color: var(--mb-highlight);
+    }
+
+    .advisor-stat-label {
+      font-size: 0.75rem;
+      color: var(--mb-silver);
+      margin-top: 0.2rem;
+    }
+
+    @media (max-width: 650px) {
+      .top-detail-grid, .cockpit-sub-grid, .lineup-container, .wheel-grid, .compare-container, .grid-common {
+        grid-template-columns: 1fr;
+      }
+      .advisor-pitch {
+        grid-template-columns: 1fr;
+        padding: 1.6rem;
+        text-align: center;
+      }
+      .advisor-pitch-img {
+        max-width: 100%;
+        height: 250px;
+        margin: 0 auto;
+      }
+      .advisor-stats {
+        justify-content: center;
+      }
+      .consult-bottom-row {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      .consult-btn-group {
+        width: 100%;
+      }
+      .c-btn {
+        flex: 1;
+        text-align: center;
+      }
+      .benefit-card {
+        flex-direction: column;
+      }
+      .benefit-img {
+        width: 100%;
+        height: 160px;
+      }
+    }
+  
+    /* ---- GLB 전용 추가 ---- */
+    .price-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem;margin-bottom:1rem}
+    .price-card{background:var(--mb-card-bg);border:1px solid var(--mb-border);border-radius:10px;padding:1.3rem}
+    .price-card .p-label{font-size:.78rem;color:var(--mb-silver);margin-bottom:.4rem}
+    .price-card .p-num{font-size:1.8rem;font-weight:800;color:var(--mb-white)}
+    .price-card .p-sub{font-size:.75rem;color:var(--mb-silver);margin-top:.3rem}
+    .price-card.hl{border-color:var(--mb-accent);background:linear-gradient(135deg,#141c29 0%,#121316 100%)}
+    .price-card.hl .p-num{color:var(--mb-accent)}
+    .note-list{list-style:none;font-size:.78rem;color:#8b9098;line-height:1.7;margin-bottom:3.5rem}
+    .note-list li::before{content:'※ ';color:var(--mb-silver)}
+    .range-card{background:var(--mb-card-bg);border:1px solid var(--mb-border);border-radius:10px;padding:1.4rem}
+    .range-card h4{font-size:1rem;color:var(--mb-accent);margin-bottom:.6rem}
+    .range-big{font-size:2.4rem;font-weight:800;color:var(--mb-white);margin-bottom:.8rem}
+    .range-big small{font-size:1rem;color:var(--mb-silver);margin-left:.2rem;font-weight:500}
+    .charge-stats{display:grid;grid-template-columns:repeat(4,1fr);gap:1rem;margin-top:1.2rem}
+    .charge-stat{background:var(--mb-dark-gray);border:1px solid var(--mb-border);border-radius:8px;padding:1rem;text-align:center}
+    .charge-stat strong{display:block;font-size:1.3rem;color:var(--mb-white)}
+    .charge-stat span{font-size:.75rem;color:var(--mb-silver)}
+    .wheel-grid.two{grid-template-columns:repeat(2,1fr)}
+    .wheel-grid.two .wheel-img{aspect-ratio:4/3}
+    .spec-sub{font-size:.78rem;color:var(--mb-silver);font-weight:400}
+    @media(max-width:992px){.charge-stats{grid-template-columns:repeat(2,1fr)}.price-grid{grid-template-columns:1fr}}
+    @media(max-width:650px){.wheel-grid.two{grid-template-columns:1fr}.hero-overlay h2{font-size:1.5rem}}
+
+    /* ---- GLA 전용 추가 ---- */
+    .soon-badge{display:inline-block;background:rgba(0,173,239,.18);color:var(--mb-accent);border:1px solid rgba(0,173,239,.4);padding:.25rem .7rem;border-radius:20px;font-size:.75rem;font-weight:700;letter-spacing:1px;margin-bottom:.7rem}
+    .preview-notice{background:linear-gradient(135deg,#141c29 0%,#121316 100%);border:1px solid var(--mb-accent);border-radius:12px;padding:1.4rem 1.6rem;margin-bottom:3.5rem}
+    .preview-notice strong{display:block;font-size:1rem;margin-bottom:.4rem}
+    .preview-notice p{font-size:.86rem;color:var(--mb-silver);line-height:1.65;margin-bottom:1rem;word-break:keep-all}
+    .key-stats{margin-top:0}
+    .key-stats .charge-stat strong{font-size:1.35rem;color:var(--mb-accent)}
+    .space-info .lineup-specs{margin-top:.4rem}
+    @media(max-width:992px){.lineup-container{grid-template-columns:1fr !important}}
+</style>
+</head>
+<body>
+
+  <header>
+    <h1>MERCEDES-BENZ</h1>
+    <div class="advisor-info">
+      포항전시장 <span>김석현 과장 (010-9379-0999)</span>
+    </div>
+  </header>
+
+  <section class="hero">
+    <img src="images/hero-main.jpg" alt="THE ALL-NEW ELECTRIC GLA 전면" class="hero-img clickable-img" onerror="this.style.display='none'">
+    <div class="hero-gradient-overlay"></div>
+    <div class="hero-overlay">
+      <span class="soon-badge">COMING SOON · 국내 출시 예정</span>
+      <h2>THE ALL-NEW ELECTRIC GLA</h2>
+      <p>가장 작은 벤츠 SUV, 처음으로 전기차가 되다 · 미리 보는 하이라이트</p>
+    </div>
+  </section>
+
+  <main class="container">
+
+    <section class="brand-quote">
+      <p>"가격은 같습니다. 사람이 다릅니다.<br>
+      계약부터 출고 후 관리까지, 변함없이 친절하겠습니다."</p>
+      <div class="quote-byline">MERCEDES-BENZ ADVISOR · <span>김석현 과장</span></div>
+    </section>
+
+    <div class="preview-notice">
+      <strong>📌 미리 보는 하이라이트 페이지입니다</strong>
+      <p>Electric GLA는 2026년 7월 글로벌 공개된 신차로, 국내 가격·트림·인증 주행거리는 아직 발표되지 않았습니다. 이 페이지는 글로벌 공개 내용을 바탕으로 "어떤 것들이 들어가는지" 미리 소개합니다. 국내 사양이 확정되면 가장 먼저 업데이트해 안내해 드리겠습니다.</p>
+      <a href="https://open.kakao.com/o/sfQJqYFi" target="_blank" class="c-btn c-btn-kakao">💬 국내 출시 소식 먼저 받기</a>
+    </div>
+
+    <section class="lineup-section">
+      <div class="section-title-wrap">
+        <span class="section-tag">KEY HIGHLIGHTS</span>
+        <h2 class="section-title">숫자로 보는 Electric GLA</h2>
+      </div>
+      <div class="charge-stats key-stats">
+        <div class="charge-stat"><strong>최대 657km</strong><span>1회 충전 주행거리 (유럽 WLTP)</span></div>
+        <div class="charge-stat"><strong>800V</strong><span>전 모델 고전압 시스템</span></div>
+        <div class="charge-stat"><strong>10분 ≈ 270km</strong><span>최대 320kW 급속 충전 시</span></div>
+        <div class="charge-stat"><strong>410L + 107L</strong><span>트렁크 + 전면 트렁크(프렁크)</span></div>
+      </div>
+      <ul class="note-list" style="margin-top:1rem"><li>글로벌 발표 수치이며, 국내 인증 주행거리는 유럽 기준보다 짧게 나오는 경우가 많습니다.</li></ul>
+    </section>
+
+    <section class="top-detail-grid">
+      <div class="top-detail-card">
+        <div class="img-placeholder img-wrapper">
+          <span>[사진: 빛나는 그릴 · 스타 패턴]</span>
+          <img src="images/detail-grille.jpg" alt="일루미네이티드 그릴" class="clickable-img" onerror="this.style.display='none'">
+        </div>
+        <div class="top-detail-info"><h4>빛나는 아이코닉 그릴</h4></div>
+      </div>
+      <div class="top-detail-card">
+        <div class="img-placeholder img-wrapper">
+          <span>[사진: 별무늬 글라스 루프]</span>
+          <img src="images/detail-roof.jpg" alt="별무늬 파노라믹 글라스 루프" class="clickable-img" onerror="this.style.display='none'">
+        </div>
+        <div class="top-detail-info"><h4>별이 빛나는 파노라믹 글라스 루프</h4></div>
+      </div>
+      <div class="top-detail-card">
+        <div class="img-placeholder img-wrapper">
+          <span>[사진: 앞트렁크]</span>
+          <img src="images/detail-frunk.jpg" alt="앞트렁크" class="clickable-img" onerror="this.style.display='none'">
+        </div>
+        <div class="top-detail-info"><h4>107L 앞트렁크 (GLA 최초)</h4></div>
+      </div>
+    </section>
+
+    <section>
+      <div class="feature-split-row">
+        <div class="img-placeholder feature-split-img">
+          <span>[사진: 측후면 컷]</span>
+          <img src="images/ext-sideview.jpg" alt="Electric GLA 측면" class="clickable-img" onerror="this.style.display='none'">
+        </div>
+        <div class="feature-split-text">
+          <span class="section-tag">EXTERIOR DESIGN</span>
+          <h3>더 길고, 넓고, 낮아진 3세대 GLA</h3>
+          <p>대형 세단에만 쓰던 크롬 그릴에 움직이는 마이크로 LED와 빛나는 스타 패턴을 넣었습니다. 볼륨감 있는 어깨선과 차체에 딱 맞게 들어찬 휠로 이전보다 단단한 SUV 인상을 줍니다.</p>
+          <div class="feature-tags">
+            <span class="feature-tag-item">일루미네이티드 그릴</span>
+            <span class="feature-tag-item">전장 4,565mm</span>
+            <span class="feature-tag-item">18~20″ 휠</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="lineup" class="lineup-section">
+      <div class="section-title-wrap">
+        <span class="section-tag">GLOBAL LINEUP</span>
+        <h2 class="section-title">글로벌 공개 라인업</h2>
+      </div>
+      <div class="lineup-container" style="grid-template-columns:repeat(3,1fr);">
+        <div class="lineup-card">
+          <div>
+            <span class="lineup-badge">엔트리</span>
+            <h3>GLA 200 electric</h3>
+            <p class="lineup-price">국내 가격 미정</p>
+          </div>
+          <ul class="lineup-specs">
+            <li>배터리 <span>58kWh · LFP</span></li>
+            <li>출력 <span>165kW (약 224PS)</span></li>
+            <li>구동 <span>후륜</span></li>
+            <li>특징 <span>합리적인 입문형</span></li>
+          </ul>
+        </div>
+        <div class="lineup-card active-target">
+          <div>
+            <span class="lineup-badge target">최장 주행거리</span>
+            <h3>GLA 250+ electric</h3>
+            <p class="lineup-price">국내 가격 미정</p>
+          </div>
+          <ul class="lineup-specs">
+            <li>배터리 <span>85kWh · NMC</span></li>
+            <li>출력 <span>200kW (약 272PS)</span></li>
+            <li>구동 <span>후륜</span></li>
+            <li>주행거리 <span>최대 657km (WLTP)</span></li>
+          </ul>
+        </div>
+        <div class="lineup-card">
+          <div>
+            <span class="lineup-badge">퍼포먼스</span>
+            <h3>GLA 350 4MATIC electric</h3>
+            <p class="lineup-price">국내 가격 미정</p>
+          </div>
+          <ul class="lineup-specs">
+            <li>배터리 <span>85kWh · NMC</span></li>
+            <li>출력 <span>260kW (약 354PS)</span></li>
+            <li>구동 <span>사륜 (듀얼 모터)</span></li>
+            <li>0→100km/h <span>5.4초</span></li>
+          </ul>
+        </div>
+      </div>
+      <ul class="note-list" style="margin-top:1rem">
+        <li>국내 도입 트림은 아직 정해지지 않았습니다. 2027년에는 71kWh 배터리 모델과 1.5L 하이브리드 모델이 추가될 예정입니다.</li>
+      </ul>
+    </section>
+
+    <section class="benefit-section">
+      <div class="section-title-wrap">
+        <span class="section-tag">BATTERY & CHARGING</span>
+        <h2 class="section-title">배터리와 충전</h2>
+      </div>
+      <div class="benefit-card">
+        <div class="img-placeholder benefit-img">
+          <span>[사진: 충전 장면]</span>
+          <img src="images/infra-charging.jpg" alt="800V 급속 충전" class="clickable-img" onerror="this.style.display='none'">
+        </div>
+        <div class="benefit-info">
+          <h3>800V 시스템 · 최대 320kW 급속 충전</h3>
+          <p>Electric CLA·GLB와 같은 차세대 전기차 기술이 들어갑니다. 고출력 충전기에서는 10분 충전으로 약 270km를 달릴 수 있다고 발표됐습니다. 실제 충전 속도는 배터리 온도와 충전기 사양에 따라 달라집니다.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="space-section">
+      <div class="space-gallery">
+        <div class="img-placeholder space-gallery-img">
+          <span>[사진: 뒷좌석]</span>
+          <img src="images/space-interior.jpg" alt="실내 공간" class="clickable-img" onerror="this.style.display='none'">
+        </div>
+        <div class="img-placeholder space-gallery-img">
+          <span>[사진: 트렁크]</span>
+          <img src="images/space-trunk.jpg" alt="트렁크" class="clickable-img" onerror="this.style.display='none'">
+        </div>
+      </div>
+      <div class="space-info">
+        <span class="section-tag">SPACE</span>
+        <h3>작아 보이지만, 안은 더 넓어졌습니다</h3>
+        <p>휠베이스가 이전보다 61mm 늘어난 2,790mm가 되면서 뒷좌석 다리 공간이 넉넉해졌습니다. 트렁크는 70L 커진 410L이고, 앞쪽에 107L 프렁크가 추가돼 충전 케이블이나 작은 짐을 따로 둘 수 있습니다.</p>
+        <ul class="lineup-specs">
+          <li>휠베이스 <span>2,790mm (+61mm)</span></li>
+          <li>뒷좌석 다리 공간 <span>+38mm</span></li>
+          <li>머리 공간 (앞/뒤) <span>+23mm / +24mm</span></li>
+          <li>트렁크 / 프렁크 <span>410L / 107L</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="cockpit-section tech-section">
+      <style>
+        .tech-wrap{position:relative}
+        .tech-track{display:flex;gap:1rem;overflow-x:auto;scroll-snap-type:x mandatory;scroll-behavior:smooth;-webkit-overflow-scrolling:touch;scrollbar-width:none;padding:2px}
+        .tech-track::-webkit-scrollbar{display:none}
+        .tech-card{flex:0 0 calc((100% - 2rem)/3);scroll-snap-align:start;background:var(--mb-card-bg);border:1px solid var(--mb-border);border-radius:10px;padding:1rem;min-width:0}
+        .tech-card .img-placeholder{aspect-ratio:16/10;margin-bottom:.8rem}
+        .tech-card h4{font-size:1rem;margin-bottom:.4rem;color:var(--mb-white)}
+        .tech-card p{font-size:.85rem;color:var(--mb-silver);line-height:1.6;word-break:keep-all}
+        .tech-arrow{position:absolute;top:35%;width:38px;height:38px;border-radius:50%;border:1px solid var(--mb-border);background:rgba(18,19,22,.92);color:#fff;font-size:1.1rem;cursor:pointer;z-index:2}
+        .tech-arrow:hover{border-color:var(--mb-accent)}
+        .tech-arrow.prev{left:-12px} .tech-arrow.next{right:-12px}
+        .tech-dots{display:flex;justify-content:center;gap:.4rem;margin-top:1rem;align-items:center}
+        .tech-dots i{width:7px;height:7px;border-radius:50%;background:var(--mb-border);display:block}
+        .tech-dots i.on{background:var(--mb-accent);width:18px;border-radius:4px}
+        .tech-hint{display:none;text-align:center;font-size:.75rem;color:var(--mb-silver);margin-top:.6rem}
+        @media(max-width:650px){.tech-card{flex-basis:82%}.tech-arrow{display:none}.tech-hint{display:block}}
+      </style>
+      <div class="section-title-wrap">
+        <span class="section-tag">DIGITAL COCKPIT & TECH</span>
+        <h2 class="section-title">이런 장비들이 들어갑니다</h2>
+      </div>
+      <div class="img-placeholder hero-banner-box">
+        <span>[사진: MBUX 슈퍼스크린 대시보드 와이드 컷]</span>
+        <img src="images/cockpit-superscreen.jpg" alt="MBUX 슈퍼스크린" class="clickable-img" onerror="this.style.display='none'">
+      </div>
+      <div class="tech-wrap">
+        <button class="tech-arrow prev" type="button" aria-label="이전">‹</button>
+        <div class="tech-track" id="techTrack">
+          <div class="tech-card">
+            <div class="img-placeholder img-wrapper">
+              <span>[사진: MBUX 슈퍼스크린]</span>
+              <img src="images/tech-superscreen.jpg" alt="MBUX 슈퍼스크린" class="clickable-img" onerror="this.style.display='none'">
+            </div>
+            <h4>MBUX 슈퍼스크린 (선택)</h4>
+            <p>10.25인치 계기판, 14인치 중앙 화면, 14인치 동승석 화면을 하나로 이었습니다. 생성형 AI 음성 비서로 대화하듯 조작할 수 있습니다.</p>
+          </div>
+          <div class="tech-card">
+            <div class="img-placeholder img-wrapper">
+              <span>[사진: 내비게이션 · 충전소 안내]</span>
+              <img src="images/tech-navi.jpg" alt="내비게이션" class="clickable-img" onerror="this.style.display='none'">
+            </div>
+            <h4>충전까지 챙기는 내비게이션</h4>
+            <p>경로에 맞춰 충전소를 찾아 주고, 도착지 주변 주차 공간 검색도 돕습니다.</p>
+          </div>
+          <div class="tech-card">
+            <div class="img-placeholder img-wrapper">
+              <span>[사진: 앱 · 스트리밍]</span>
+              <img src="images/tech-entertain.jpg" alt="앱과 스트리밍" class="clickable-img" onerror="this.style.display='none'">
+            </div>
+            <h4>앱 · 스트리밍 · 게임</h4>
+            <p>음악·영상 스트리밍 앱을 바로 쓰고, 정차 중이나 충전 중에는 게임과 실내 카메라 영상 통화도 즐길 수 있습니다.</p>
+          </div>
+          <div class="tech-card">
+            <div class="img-placeholder img-wrapper">
+              <span>[사진: 앞좌석 · 앰비언트 라이트]</span>
+              <img src="images/tech-ambient.jpg" alt="스티어링 휠과 앰비언트 라이트" class="clickable-img" onerror="this.style.display='none'">
+            </div>
+            <h4>앰비언트 라이트 · 새 스티어링 휠</h4>
+            <p>실내를 감싸는 앰비언트 라이트와 새로 디자인한 스티어링 휠로 분위기를 바꿉니다.</p>
+          </div>
+          <div class="tech-card">
+            <div class="img-placeholder img-wrapper">
+              <span>[사진: 스피커 · 사운드]</span>
+              <img src="images/tech-sound.jpg" alt="부메스터 사운드" class="clickable-img" onerror="this.style.display='none'">
+            </div>
+            <h4>부메스터® 사운드 (선택)</h4>
+            <p>부메스터 오디오를 고를 수 있고, 방음재를 보강해 실내가 한층 조용해졌습니다.</p>
+          </div>
+          <div class="tech-card">
+            <div class="img-placeholder img-wrapper">
+              <span>[사진: 주행 보조 · 차선 변경]</span>
+              <img src="images/tech-drive.jpg" alt="MB.DRIVE 주행 보조" class="clickable-img" onerror="this.style.display='none'">
+            </div>
+            <h4>MB.DRIVE 주행 보조</h4>
+            <p>방향 지시등 없이도 상황을 판단해 차선을 바꾸는 자동 차선 변경 기능이 추가됐습니다.</p>
+          </div>
+          <div class="tech-card">
+            <div class="img-placeholder img-wrapper">
+              <span>[사진: 바퀴 가이드 카메라 화면]</span>
+              <img src="images/tech-camera.jpg" alt="주행 보조 카메라 화면" class="clickable-img" onerror="this.style.display='none'">
+            </div>
+            <h4>바퀴 위치까지 보이는 카메라</h4>
+            <p>차 앞 노면과 바퀴 진행 방향을 화면에 그려 줘 좁은 길, 턱, 경사로에서도 안심하고 움직일 수 있습니다.</p>
+          </div>
+          <div class="tech-card">
+            <div class="img-placeholder img-wrapper">
+              <span>[사진: 360° 카메라 주차 화면]</span>
+              <img src="images/tech-parking.jpg" alt="360도 카메라 주차" class="clickable-img" onerror="this.style.display='none'">
+            </div>
+            <h4>360° 카메라 · 주차 보조</h4>
+            <p>360° 화면과 늘어난 주차 기능으로 좁은 골목·주차장에서도 편하게 움직입니다.</p>
+          </div>
+        </div>
+        <button class="tech-arrow next" type="button" aria-label="다음">›</button>
+      </div>
+      <div class="tech-dots" id="techDots"></div>
+      <div class="tech-hint">← 옆으로 밀어서 8가지 장비를 확인하세요 →</div>
+      <script>
+        (function(){
+          var t=document.getElementById('techTrack'),d=document.getElementById('techDots'),
+              c=t.children,w=t.closest('.tech-wrap');
+          for(var i=0;i<c.length;i++){d.appendChild(document.createElement('i'));}
+          function step(){return c[1].offsetLeft-c[0].offsetLeft;}
+          function upd(){var n=Math.round(t.scrollLeft/step());
+            [].forEach.call(d.children,function(e,i){e.className=i===n?'on':'';});}
+          t.addEventListener('scroll',upd);upd();
+          w.querySelector('.prev').onclick=function(){t.scrollBy({left:-step(),behavior:'smooth'});};
+          w.querySelector('.next').onclick=function(){t.scrollBy({left:step(),behavior:'smooth'});};
+        })();
+      </script>
+    </section>
+
+    <section>
+      <div class="feature-split-row">
+        <div class="img-placeholder feature-split-img">
+          <span>[사진: 후면 주행 컷]</span>
+          <img src="images/ext-rear.jpg" alt="Electric GLA 후면" class="clickable-img" onerror="this.style.display='none'">
+        </div>
+        <div class="feature-split-text">
+          <span class="section-tag">DRIVING</span>
+          <h3>도심에선 가볍게, 필요할 땐 힘차게</h3>
+          <p>에코·컴포트·스포트 등 주행 모드에 따라 스티어링, 파워트레인, 서스펜션, 브레이크 반응이 함께 바뀝니다. 4MATIC 모델은 선택 사양인 견인 장치로 최대 2톤 트레일러도 끌 수 있습니다.</p>
+          <div class="feature-tags">
+            <span class="feature-tag-item">주행 모드</span>
+            <span class="feature-tag-item">0→100km/h 5.4초 (4MATIC)</span>
+            <span class="feature-tag-item">견인 2톤 (4MATIC)</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="lineup-section">
+      <div class="section-title-wrap">
+        <span class="section-tag">GLA vs GLB</span>
+        <h2 class="section-title">GLA와 GLB, 어떤 차가 맞을까요?</h2>
+      </div>
+      <div class="table-wrapper">
+        <table>
+          <thead><tr><th style="width:26%;">구분</th><th>Electric GLA</th><th>Electric GLB</th></tr></thead>
+          <tbody>
+            <tr><td>성격</td><td>도심형 컴팩트 SUV</td><td>공간 넉넉한 패밀리 SUV</td></tr>
+            <tr><td>전장 / 휠베이스</td><td>4,565 / 2,790mm</td><td>4,732 / 2,889mm</td></tr>
+            <tr><td>배터리</td><td>58kWh 또는 85kWh</td><td>85kWh (국내 250+)</td></tr>
+            <tr><td>주행거리</td><td>최대 657km (유럽 WLTP)</td><td>454km (국내 인증 상온 복합)</td></tr>
+            <tr><td>충전</td><td>800V · 최대 320kW</td><td>800V · 최대 320kW</td></tr>
+            <tr><td>국내 판매</td><td>출시 예정</td><td>판매 중 · <a href="https://kim-benz.github.io/GLB_EV/" style="color:var(--mb-accent)">GLB 페이지 보기 →</a></td></tr>
+            <tr><td>이런 분께</td><td>혼자·둘이 타고, 주차가 편한 차를 원하실 때</td><td>가족이 함께 타고 짐이 많을 때</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <ul class="note-list" style="margin-top:-2.5rem"><li>GLA 수치는 글로벌 발표 기준, GLB 주행거리는 국내 인증 기준이라 단순 비교는 어렵습니다.</li></ul>
+    </section>
+
+    <section class="advisor-pitch">
+      <div class="advisor-pitch-img">
+        <img src="https://kim-benz.github.io/main/images/profile-photo.jpg" alt="김석현 과장" onerror="this.style.display='none'">
+      </div>
+      <div class="advisor-pitch-body">
+        <span class="section-tag">PERSONAL CONSULTING GUIDE</span>
+        <h3>GLA 일렉트릭, 국내 소식이 나오면<br>가장 먼저 알려드립니다.</h3>
+        <p>국내 가격과 사양이 확정되는 대로 이 페이지를 업데이트하고, 미리 문의해 주신 고객님께 먼저 연락드리겠습니다. 지금 판매 중인 CLA·GLB와도 실제로 비교해 보시고, 나에게 맞는 차를 함께 찾아보세요.</p>
+        <div class="advisor-stats">
+          <div><div class="advisor-stat-num">2018~</div><div class="advisor-stat-label">벤츠 포항전시장 근무</div></div>
+          <div><div class="advisor-stat-num">EQ·AMG</div><div class="advisor-stat-label">SALES EXPERT 인증</div></div>
+          <div><div class="advisor-stat-num">1:1</div><div class="advisor-stat-label">프라이빗 컨설팅</div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="consult-card">
+      <div class="consult-header">
+        <div class="consult-title-row"><span>📢</span><h3>Electric GLA 출시 알림 · 사전 상담</h3></div>
+        <p class="consult-subtext">
+          국내 출시 일정·가격이 나오면 가장 먼저 안내해 드립니다.<br>
+          • 지금 바로 상담 가능한 차량: <strong>Electric CLA · Electric GLB · Electric GLC</strong>
+        </p>
+      </div>
+      <hr class="consult-divider">
+      <div class="consult-bottom-row">
+        <div class="advisor-details">
+          <span class="advisor-name">메르세데스-벤츠 포항전시장 <strong>김석현 과장</strong></span>
+          <a href="tel:01093790999" class="advisor-phone">📞 010-9379-0999</a>
+        </div>
+        <div class="consult-btn-group">
+          <a href="https://open.kakao.com/o/sfQJqYFi" target="_blank" class="c-btn c-btn-kakao">💬 카카오톡 문의</a>
+          <a href="tel:01093790999" class="c-btn c-btn-call">전화 문의</a>
+          <a href="sms:01093790999" class="c-btn c-btn-sms">문자 문의</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="footer-content">
+      <div class="footer-disclaimer">
+        <p>※ 이 페이지는 2026년 7월 글로벌 공개 내용을 바탕으로 한 참고용 하이라이트이며, 국내 출시 사양·가격·주행거리와 다를 수 있습니다.</p>
+        <p>※ 이미지는 메르세데스-벤츠 글로벌 공개 사진·영상을 참고용으로 사용했으며, 국내 판매 차량의 사양·색상과 다를 수 있습니다.</p>
+      </div>
+      <div class="footer-copyright">© 2026 Mercedes-Benz Korea. All rights reserved.</div>
+    </div>
+  </footer>
+
+  <div class="modal-overlay" id="imageModal">
+    <span class="modal-close" id="modalClose">&times;</span>
+    <img class="modal-content" id="modalImg" src="" alt="확대 이미지">
+  </div>
+
+  <script>
+    const modal = document.getElementById('imageModal');
+    const modalImg = document.getElementById('modalImg');
+    document.querySelectorAll('.clickable-img').forEach(img => {
+      img.addEventListener('click', function() {
+        if (this.src && this.style.display !== 'none') {
+          modal.classList.add('active');
+          modalImg.src = this.src;
+        }
+      });
+    });
+    document.getElementById('modalClose').addEventListener('click', () => modal.classList.remove('active'));
+    modal.addEventListener('click', (e) => { if (e.target === modal) modal.classList.remove('active'); });
+  </script>
+  <!-- 공통 햄버거 메뉴 (전체 사이트맵) -->
+  <style>header{padding-right:4.5rem !important}@media(max-width:650px){header{flex-wrap:wrap;row-gap:2px;column-gap:10px}}</style>
+  <script src="https://kim-benz.github.io/main/nav.js"></script>
+
+</body>
+</html>
